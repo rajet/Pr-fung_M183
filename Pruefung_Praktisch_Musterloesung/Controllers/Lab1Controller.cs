@@ -18,7 +18,7 @@ namespace Pruefung_Praktisch_Musterloesung.Controllers
          * auf welche man möglicherweise keine Zugriff hätte.
          * Möglicherweise kann man dadurch ein eigenes "File/Script" verlinken, welche nicht auf dem Server liegt. Dadurch gibt es 
          * eine Sicherheitslücke.
-         * File Inclusion
+         * File Enumeration Attack
          * Directory Traversal
          * 2. 
          * http://localhost:50374/Lab1/index?type=bears

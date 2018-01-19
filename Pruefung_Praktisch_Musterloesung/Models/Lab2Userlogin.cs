@@ -12,7 +12,7 @@ namespace Pruefung_Praktisch_Musterloesung.Models
         private SqlConnection setUp()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C: \\Users\\Rajethan Ranjan\\Source\\Repos\\Pruefung\\Pruefung_Praktisch_Musterloesung\\App_Data\\lab2.mdf\";Integrated Security=True";
+            con.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Rajethan Ranjan\\Source\\Repos\\Pruefung\\Pruefung_Praktisch_Musterloesung\\App_Data\\Lab2.mdf\";Integrated Security=True";
             return con;
         }
 

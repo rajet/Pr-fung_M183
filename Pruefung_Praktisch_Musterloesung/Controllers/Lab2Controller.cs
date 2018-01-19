@@ -17,8 +17,20 @@ namespace Pruefung_Praktisch_Musterloesung.Controllers
 
         /**
         * 
-        * ANTWORTEN BITTE HIER
+        * Aufgabe 2
+        * 1.
+        * Session Fixation
+        * Dadurch die SessionId mitgegeben wird, besteht die Möglichkeit dass jemand anders die Anmeldung kapern kann.
         * 
+        * SQL-Injection 
+        * Es besteht die Möglichkeit SQL-Logik einzugeben wodurch die Überprüfung entgangen werden kann.
+        * Username: Raji OR 1=1 Passwort: 0 or "=""
+        * 2.
+        * Session Fixation
+        *   Die SessionID kann auf den eigenen Account übertragen werden, und da die Session ID überprüft wird, und dies im Web anpassbar ist, kann man dies entgegewirken.
+        * SQL-Injection
+        *   Eine Abfrage wird gestartet und da durch diese Abfrage OR 1=1 True zurückgegeben wird, kann man sich so oder so einloggen
+        *   3.
         * */
 
         public ActionResult Index() {
