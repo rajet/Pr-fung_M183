@@ -11,8 +11,28 @@ namespace Pruefung_Praktisch_Musterloesung.Controllers
     {
         /**
          * 
-         * ANTWORTEN BITTE HIER
+         * Aufgabe 1
          * 
+         * 1. 
+         * Man hat die Möglichkeit in die Filepfade einzusehen, wenn man diese Pfade abändert kann man auf Bilder zugreifen
+         * auf welche man möglicherweise keine Zugriff hätte.
+         * Möglicherweise kann man dadurch ein eigenes "File/Script" verlinken, welche nicht auf dem Server liegt. Dadurch gibt es 
+         * eine Sicherheitslücke.
+         * File Inclusion
+         * Directory Traversal
+         * 2. 
+         * http://localhost:50374/Lab1/index?type=bears
+         * http://localhost:50374/Lab1/Detail?file=bear1.jpg&type=bears
+         * 
+         * 3. 
+         * Da hier eine einfache Url Abfrage stattfindet, kann hier durch die Änderungen des URLs auf Daten gelangen werden,
+         * welche ansonsten nicht möglich wäre. Hier kann ich auf die Bilder von Bären zugreifen und auch auf die einzelnen Bilder
+         * des Types.
+         * 
+         * Da die Abfrage nur den Type abfragt kann dies mit bears abgeändert werden.
+         * Bei der Detail-Ansicht muss die file ergänzt werden(bear1.jpg) und type als bears.
+         * 
+         * 4.
          * */
 
 

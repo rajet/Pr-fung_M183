@@ -158,8 +158,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\lab2.mdf" />
+    <Content Include="App_Data\lab2_log.ldf">
+      <DependentUpon>lab2.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Data\lab3.mdf" />
+    <Content Include="App_Data\lab3_log.ldf">
+      <DependentUpon>lab3.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Data\lab4.mdf" />
+    <Content Include="App_Data\lab4_log.ldf">
+      <DependentUpon>lab4.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\bears\bear1.jpg" />
